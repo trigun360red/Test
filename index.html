@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <link rel="stylesheet" href="index.css" />
         <link rel="stylesheet" media="screen and (max-width: 720px)" href="petite_resolution.css" />
-        <link rel="stylesheet" href="flickity.css">
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
         <title>Conkret Live - Accueil </title>
 
@@ -19,8 +19,7 @@
 
         <script src="js/index.js"></script>
 
-
-        <script src="js/flickity.pkgd.min"></script>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
     </head>
 
@@ -69,11 +68,7 @@
             <div class='categorie categorie1'>
                 <h1>Accueil</h1>
 
-                <div class="carousel" data-flickity='{ " wrapAround: true }'>
-
-                    <div class="carousel-cell">
-                        <img src="Images/Diapo1.jpg">
-                    </div>
+                <div class="main-carousel">
 
                     <div class="carousel-cell">
                         <img src="Images/Diapo2.jpg">
@@ -83,7 +78,11 @@
                         <img src="Images/Diapo3.jpg">
                     </div>
 
-                </div>
+                    <div class="carousel-cell">
+                        <img src="Images/Diapo1.jpg">
+                    </div>
+
+                </div> 
             
                 <p>
 
