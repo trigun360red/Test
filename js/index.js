@@ -8,7 +8,11 @@ jQuery(document).ready(function($){
 
 // fixe les faders sur l'axe vertical y, et limite leur deplacement au containere virtuel 'container1'
 
-
+	$('.main-carousel').flickity({
+	  // options
+	  cellAlign: 'left',
+	  contain: true
+	});
 // $(".fader1, .fader2, .fader3, .fader4").draggable({axis: "y"},{containment:$("#Container1")});
 //Troncon qui detecte au clic sur les objet du menu de gauche si ils sont deja visible ou non
 //Si ils sont visible le script les caches, si ils sont cache le script les rend visible.
