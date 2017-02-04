@@ -11,7 +11,7 @@ jQuery(document).ready(function($){
 	$('.main-carousel').flickity({
 	  // options
 	  cellAlign: 'left',
-	  contain: true,
+	  contain: true
 	  wrapAround: true
 	});
 // $(".fader1, .fader2, .fader3, .fader4").draggable({axis: "y"},{containment:$("#Container1")});
