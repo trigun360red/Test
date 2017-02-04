@@ -12,7 +12,6 @@ jQuery(document).ready(function($){
 	  // options
 	  cellAlign: 'left',
 	  contain: true
-	  wrapAround: true
 	});
 // $(".fader1, .fader2, .fader3, .fader4").draggable({axis: "y"},{containment:$("#Container1")});
 //Troncon qui detecte au clic sur les objet du menu de gauche si ils sont deja visible ou non
