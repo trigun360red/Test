@@ -1,4 +1,8 @@
 
+@font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
+    font-family: 'mr_header';
+    src: url('Mr_Headlines.ttf') format('truetype');
+}
 html
 {
 	background: url('Images/Table3.1.png');
@@ -7,6 +11,15 @@ html
 	margin:0;
     width:100%;
     height:100%;	
+}
+h1,h2,h3,h4
+{
+	font-family: 'Franklin Gothic Book';
+	font-size: 3em;
+}
+p{
+	font-size: 1.3em;
+	font-family: 'Franklin Gothic Book';
 }
 .iframe
 {
