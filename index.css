@@ -20,6 +20,8 @@ h1,h2,h3,h4
 {
 	font-family: 'A_Love_of_Thunder';
 	font-size: 3em;
+	margin-bottom: -20px;
+	margin-top: -10px;
 }
 p{
 	font-size: 1.5em;
@@ -27,8 +29,10 @@ p{
 }
 .iframe
 {
+	float: right;
 	border:0;
-	width:100%;
+	width:200px;
+	height:200px;
 }
 #etiquette1
 {
@@ -241,6 +245,13 @@ p{
 {
 	width: auto ;
 	height: 300px;
+}
+#infos_contact{
+	position: relative;
+	border: 2px yellow groove;
+	height: 200px;
+	width: 100%;
+
 }
 #responsive
 {
