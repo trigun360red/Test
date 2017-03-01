@@ -3,6 +3,10 @@
     font-family: 'mr_header';
     src: url('Mr_Headlines.ttf') format('truetype');
 }
+@font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
+    font-family: 'A_Love_of_Thunder';
+    src: url('A_Love_of_Thunder.ttf') format('truetype');
+}
 html
 {
 	background: url('Images/Table3.1.png');
@@ -14,12 +18,12 @@ html
 }
 h1,h2,h3,h4
 {
-	font-family: 'Franklin Gothic Book';
+	font-family: 'A_Love_of_Thunder';
 	font-size: 3em;
 }
 p{
-	font-size: 1.3em;
-	font-family: 'Franklin Gothic Book';
+	font-size: 1.5em;
+	font-family: 'Old Standard TT';
 }
 .iframe
 {
