@@ -29,9 +29,11 @@ p{
 }
 .iframe
 {
-	float: right;
+	position: absolute;
+	right:0%;
+	top: 0%;
 	border:0;
-	width:200px;
+	width:300px;
 	height:200px;
 }
 #etiquette1
@@ -248,9 +250,9 @@ p{
 }
 #infos_contact{
 	position: relative;
-	border: 2px yellow groove;
+	margin-top: 150px;
 	height: 200px;
-	width: 100%;
+	width: 99.8%;
 
 }
 #responsive
