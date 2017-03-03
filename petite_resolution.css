@@ -21,7 +21,7 @@ p{
 	font-style: normal;
 	font-family: 'Old Standard TT';
 }
-#Container1, #BlocTexte, .LED1, .LED2, .LED3, .LED4
+#Container1, #BlocTexte, .LED1, .LED2, .LED3, .LED4, .facebook
 {
 	display: none;
 }
