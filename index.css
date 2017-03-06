@@ -36,6 +36,22 @@ p{
 	width:100%;
 	height:300px;
 }
+.fermer
+{
+	position: relative;
+	top: -10%;
+	left: 85%;
+	
+	height: 50px;
+	width: 100px;
+	color: red;
+}
+.croixrouge
+{
+	float: right;
+	width: 21%;
+	height: 21%;
+}
 #etiquette1
 {
 	position: absolute;
@@ -251,4 +267,10 @@ p{
 #responsive
 {
 	display: none;
+}
+#fb
+{
+	position: absolute;
+	top: 85%;
+	left: 2%;
 }

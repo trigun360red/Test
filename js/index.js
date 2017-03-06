@@ -38,7 +38,17 @@ $('.main-carousel').flickity({
 			$('#mention').fadeIn();
 		}
 	});
-
+	$("#BlocTexte .fermer .croixrouge").click( function() { 		
+		$(".LED1").hide();
+		$(".LED2").hide();
+		$(".LED3").hide();
+		$(".LED4").hide();
+		$("#BlocTexte").hide();
+		$(".categorie2").hide();
+		$(".categorie1").hide();
+		$(".categorie3").hide();
+		$(".categorie4").hide();
+	});  
 
 	$("#etiquette1, #etiquette5").click(function(){
 
