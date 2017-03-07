@@ -21,7 +21,7 @@ p{
 	font-style: normal;
 	font-family: 'Old Standard TT';
 }
-#Container1, #BlocTexte, .LED1, .LED2, .LED3, .LED4, .facebook
+#Container1, #BlocTexte, .LED1, .LED2, .LED3, .LED4, #fb
 {
 	display: none;
 }
@@ -90,4 +90,13 @@ p{
 	color: white;
 	overflow: auto;
 }
-
+.fermer
+{
+	position: relative;
+	top: -35px;
+	left: 65%;
+	
+	height: 50px;
+	width: 100px;
+	color: red;
+}
