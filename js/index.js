@@ -26,6 +26,7 @@ $('.main-carousel').flickity({
 	$(".TexteSynopsis").hide();
 	$(".TexteServices").hide();
 	$(".TexteContacts").hide();
+	$(".croixrouge").hide();
 	
 
 	$('#mention').hide();	
@@ -38,7 +39,7 @@ $('.main-carousel').flickity({
 			$('#mention').fadeIn();
 		}
 	});
-	$("#BlocTexte .fermer .croixrouge").click( function() { 		
+	$(".croixrouge").click( function() { 		
 		$(".LED1").hide();
 		$(".LED2").hide();
 		$(".LED3").hide();
@@ -48,6 +49,7 @@ $('.main-carousel').flickity({
 		$(".categorie1").hide();
 		$(".categorie3").hide();
 		$(".categorie4").hide();
+		$(".croixrouge").hide();
 	});  
 
 	$("#etiquette1, #etiquette5").click(function(){
@@ -60,6 +62,7 @@ $('.main-carousel').flickity({
 			$(".categorie3").fadeOut();
 			$(".categorie4").fadeOut();
 			$(".LED1").fadeOut();
+			$(".croixrouge").fadeOut();
 		}	
 		else {
 
@@ -68,6 +71,7 @@ $('.main-carousel').flickity({
 			}, 1200).delay(800);
 			setTimeout(function(){
 			$(".LED1").fadeIn();
+			$(".croixrouge").fadeIn();
 			$("#BlocTexte").fadeIn();
 			$(".categorie1").fadeIn();
 			$(".categorie2").hide();
@@ -91,6 +95,7 @@ $('.main-carousel').flickity({
 			$(".categorie3").fadeOut();
 			$(".categorie4").fadeOut();
 			$(".LED2").fadeOut();
+			$(".croixrouge").hide();
 		}
 		else {
 			$("#Container1 .fader2").animate({
@@ -98,6 +103,7 @@ $('.main-carousel').flickity({
 			}, 1200).delay(800);
 			setTimeout(function(){
 			$(".LED2").fadeIn();
+			$(".croixrouge").fadeIn();
 			$("#BlocTexte").fadeIn();
 			$(".categorie2").fadeIn();
 			$(".categorie1").hide();
@@ -121,6 +127,7 @@ $('.main-carousel').flickity({
 			$(".categorie2").fadeOut();
 			$(".categorie1").fadeOut();
 			$(".categorie4").fadeOut();
+			$(".croixrouge").hide();
 		}			
 		else {
 			$("#Container1 .fader3").animate({
@@ -128,6 +135,7 @@ $('.main-carousel').flickity({
 			}, 1200).delay(800);
 			setTimeout(function(){
 			$(".LED3").fadeIn();
+			$(".croixrouge").fadeIn();
 			$("#BlocTexte").fadeIn();
 			$(".categorie3").fadeIn();
 			$(".categorie2").hide();
@@ -151,6 +159,7 @@ $('.main-carousel').flickity({
 			$(".categorie2").hide();
 			$(".categorie3").hide();
 			$(".categorie1").hide();
+			$(".croixrouge").hide();
 		}
 		else {
 			$("#Container1 .fader4").animate({
@@ -160,6 +169,7 @@ $('.main-carousel').flickity({
 
 			
 			$(".LED4").fadeIn();
+			$(".croixrouge").fadeIn();
 			$("#BlocTexte").fadeIn();
 			$(".categorie4").fadeIn();
 			$(".categorie2").hide();
@@ -181,6 +191,7 @@ $('.main-carousel').flickity({
 			}, 1200).delay(800)
 			setTimeout(function(){
 			$(".LED1").fadeIn();
+			$(".croixrouge").fadeIn();
 			$("#BlocTexte").fadeIn();
 			$(".categorie2").hide();
 			$(".categorie1").fadeIn();
@@ -198,6 +209,7 @@ $('.main-carousel').flickity({
 			}, 1200).delay(800)
 			setTimeout(function(){
 			$(".LED2").fadeIn();
+			$(".croixrouge").fadeIn();
 			$("#BlocTexte").fadeIn();
 			$(".categorie2").fadeIn();
 			$(".categorie1").hide();
@@ -215,6 +227,7 @@ $('.main-carousel').flickity({
 			}, 1200).delay(800)
 			setTimeout(function(){
 			$(".LED3").fadeIn();
+			$(".croixrouge").fadeIn();
 			$("#BlocTexte").fadeIn();
 			$(".categorie2").hide();
 			$(".categorie1").hide();
@@ -232,6 +245,7 @@ $('.main-carousel').flickity({
 			}, 1200).delay(800)
 			setTimeout(function(){
 			$(".LED4").fadeIn();
+			$(".croixrouge").fadeIn();
 			$("#BlocTexte").fadeIn();
 			$(".categorie2").hide();
 			$(".categorie1").hide();
