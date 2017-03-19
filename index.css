@@ -265,8 +265,8 @@ p{
 #button_mention{
 margin-top: 10px;
 margin-bottom: 10px;
-position: absolute;
-right: 5%;
+position: relative;
+left: 80%;
 }
 #lien_vilain:link{
 	color: red;
