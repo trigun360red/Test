@@ -9,13 +9,14 @@
 }
 html
 {
-	background: url('Images/Table3.1.png');
+	background: url('Images/Lastable.png');
 	background-size: 100% 100%;
 	background-repeat:no-repeat;
 	margin:0;
     width:100%;
-    height:100%;	
+    height:100%;
 }
+
 h1,h2,h3,h4
 {
 	font-family: 'A_Love_of_Thunder';
@@ -26,7 +27,9 @@ h1,h2,h3,h4
 p{
 	font-size: 1.3em;
 	font-family: 'Old Standard TT';
+	margin-bottom: 10px;
 }
+
 .iframe
 {
 	position: relative;
@@ -39,9 +42,9 @@ p{
 .croixrouge
 {
 	position: absolute;
-	top: 14%;
+	top: 12.7%;
 	left: 96.5%;
-	height: 2.5%;
+	height: 5%;
 	width: 2.5%;
 	z-index: 1;
 }
@@ -124,26 +127,24 @@ p{
 	left:27.5%;
 	right: 0%;
 	bottom: 2%;	
-	overflow: auto;
 	background: url('Images/NouveauFlightcase.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	color: white;
-	
 	padding-left: 5%;
 	padding-right: 5%;
 }
+
 .categorie
 {
 	position: absolute;
 	top: 10%;
-	bottom: 10%;
+	bottom: 13%;
 	left: 9%;
 	right: 9%;
-
 	padding-left: 2px;
 	padding-right: 2px;
-	overflow: scroll;
+	overflow: auto;
 }
 #Container1
 {
@@ -152,8 +153,7 @@ p{
 	left:30%;
 	right:5%;
 	bottom:21%;
-	display: inline-block;
-	
+	display: inline-block;	
 }
 
 .fader1
@@ -261,9 +261,27 @@ p{
 {
 	display: none;
 }
-#fb
-{
+
+#button_mention{
+margin-top: 10px;
+margin-bottom: 10px;
+position: absolute;
+right: 5%;
+}
+#lien_vilain:link{
+	color: red;
+	font-weight: bold;
+	text-decoration:none;
+}
+#lien_vilain:visited{
+	color: red;
+	font-weight: bold;
+	text-decoration:none;
+}
+.fb_div{
 	position: absolute;
-	top: 85%;
-	left: 2%;
+	top: 83.6%;
+	left: 3%;
+	height: 60px;
+	width: 60px;
 }

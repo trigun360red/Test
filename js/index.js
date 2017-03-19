@@ -323,7 +323,7 @@ if (window.matchMedia('(max-width: 720px)').matches)
 // Changes when we reach the max-width
   
 
-$('#BlocTexte, .LED').css('opacity', '0');
+$('#BlocTexte, .LED, .croixrouge').css('opacity', '0');
 $("#BlocTexte2").show();
 $(".TexteContacts").show();
 
@@ -332,7 +332,7 @@ $(".TexteContacts").show();
 
 // Reset for CSS changes - Still need a better way to do this!
   
-$('#BlocTexte, .LED').css('opacity', '1')
+$('#BlocTexte, .LED, .croixrouge').css('opacity', '1');
 $("#BlocTexte2").hide();
 $(".TexteContacts").hide();
 }
